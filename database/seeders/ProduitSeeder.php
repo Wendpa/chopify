@@ -15,18 +15,21 @@ class ProduitSeeder extends Seeder
     public function run()
     {
         Produit::create([
+            "category_id"=>1,
             "designation" => "Sac à main",
             "description" => " la description",
             "prix" => 45000,
         ]);
 
         Produit::create([
+            "category_id"=>2,
             "designation" => "Ordinateur",
             "description" => " la description",
             "prix" => 300000,
         ]);
 
         Produit::create([
+            "category_id"=>3,
             "designation" => "Telephone",
             "description" => " la description",
             "prix" => 100000,

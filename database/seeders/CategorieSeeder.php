@@ -16,6 +16,18 @@ class CategorieSeeder extends Seeder
      */
     public function run()
     {
-        Categorie::factory(10)->has(Produit::factory(5))->create();
+        // Categorie::factory(10)->has(Produit::factory(5))->create();
+        Categorie::create([
+            "libelle" => "mangue",
+
+        ]);
+
+        Categorie::create([
+            "libelle" => "Orange",
+        ]);
+
+        Categorie::create([
+            "libelle" => "Goyave",
+        ]);
     }
 }
