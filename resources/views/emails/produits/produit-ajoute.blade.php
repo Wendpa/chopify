@@ -1,3 +1,5 @@
+<x-masterlayout title=" | Ajout">
+
 @component('mail::message')
 # Du nouveau sur Chopify!
 
