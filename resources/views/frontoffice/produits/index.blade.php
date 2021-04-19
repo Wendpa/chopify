@@ -1,4 +1,4 @@
-<x-masterlayout>
+<x-masterlayout title=" | Catalogue">
 
 
     <div class="container">
